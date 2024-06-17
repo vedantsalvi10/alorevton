@@ -4,6 +4,12 @@
   grid-template-columns: 600px auto;
   grid-template-rows: 500px;
   grid-gap: 20px;
+  z-index: -4;
+}
+.main-body{
+  position: relative;
+  top: 150px;
+  z-index: -4;
 }
 /* Product */
 .Product-img{
