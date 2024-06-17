@@ -1,0 +1,77 @@
+.try-product, .cart-product, .buy-product{
+  background-color: rgb(59, 59, 59);
+  color: white;
+  border: 2px solid rgb(223, 222, 222);
+  transition: 0.2s;
+}
+.try, .cart, .buy{
+  position:relative;
+}
+.try:hover .line_for_try1{
+ left: 95px;
+ z-index: 100;
+}
+.try:hover .line_for_try2{
+  right: 95px;
+  z-index: 100;
+ }
+.line_for_try2{
+ position: absolute;
+ height: 2.5px;
+ width: 20px;
+ background-color: black;
+ top:0;
+ right: 10px;
+ transition: 0.5s;
+ z-index: 101;
+}
+.line_for_cart2{
+  position: absolute;
+ height: 2.5px;
+ width: 20px;
+ background-color: rgb(0, 0, 0);
+ top:0;
+ right: 50px;
+ transition: 0.5s;
+ z-index: 101;
+}
+.cart:hover .line_for_cart2{
+  right: 115px;
+  z-index: 100;
+}
+.buy:hover .line_for_cart2{
+  right: 115px;
+  z-index: 100;
+}
+
+.cart-product:hover, .try-product:hover, .buy-product:hover {
+  opacity: 0.7;
+}
+.line_for_try1{
+  position: absolute;
+ height: 2.5px;
+ width: 20px;
+ background-color: rgb(0, 0, 0);
+ bottom:0;
+ left: 10px;
+ transition: 0.5s;
+ z-index: 101;
+}
+.line_for_cart1{
+  position: absolute;
+  height: 2.5px;
+  width: 20px;
+  background-color: rgb(8, 8, 8);
+  bottom: 10px;
+  left: 40px;
+  transition: 0.5s;
+  z-index: 101;
+}
+.cart:hover .line_for_cart1{
+  left: 115px;
+ z-index: 100;
+}
+.buy:hover .line_for_cart1{
+  left: 115px;
+ z-index: 100;
+}
