@@ -9,11 +9,9 @@
 }
 .try:hover .line_for_try1{
  left: 95px;
- z-index: 100;
 }
 .try:hover .line_for_try2{
   right: 95px;
-  z-index: 100;
  }
 .line_for_try2{
  position: absolute;
@@ -23,7 +21,7 @@
  top:0;
  right: 10px;
  transition: 0.5s;
- z-index: 101;
+
 }
 .line_for_cart2{
   position: absolute;
@@ -33,7 +31,6 @@
  top:0;
  right: 50px;
  transition: 0.5s;
- z-index: 101;
 }
 .cart:hover .line_for_cart2{
   right: 115px;
