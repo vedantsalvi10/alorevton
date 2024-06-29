@@ -42,6 +42,7 @@ body{
 .logo-head{
   height: inherit;
   width: 40%;
+  padding-left: 15px;
   border-top-left-radius: inherit;
   border-bottom-left-radius: inherit;
 
