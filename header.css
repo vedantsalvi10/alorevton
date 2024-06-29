@@ -40,12 +40,15 @@ body{
   margin-left: auto;
 }
 .logo-head{
-  background-color: aliceblue;
   height: inherit;
   width: 40%;
   border-top-left-radius: inherit;
   border-bottom-left-radius: inherit;
-  
+
+}
+.logo-head img{
+  padding-top: 15px;
+  height: 40px;
 }
 .home-button{
   margin: auto;
