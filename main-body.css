@@ -10,6 +10,9 @@
 .Product-img{
   background-color: rgb(218, 218, 218);;
   border-radius: 30px;
+  width: 800px; /* Set the desired width */
+  height: 600px; /* Set the desired height */
+  object-fit: cover;
 }
 .Product-info{
   display: grid;
