@@ -56,15 +56,21 @@ body{
   margin-right: inherit;
   height: 50%;
   align-items: center;
-  margin-top: 5%;
-  background-color: white;
+  margin-top: 4%;
+  background-color: transparent;
+  color: white;
   border: 0;
   border-radius: 11px;
-  padding: 5px 20px;
+  padding: 0px 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 15px;
   cursor: pointer;
+  transition: 0.2s;
+}
+.home-button:hover{
+  background-color:white;
+  color: black;
 }
 .contact-button{
   margin: auto;
@@ -72,7 +78,7 @@ body{
   margin-right: inherit;
   height: 50%;
   align-items: center;
-  margin-top: 5%;
+  margin-top: 4%;
   padding: 5px 20px;
   border: 0;
   color: white;

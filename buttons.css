@@ -1,7 +1,19 @@
-.try-product, .cart-product, .buy-product{
+.try-product,  .buy-product{
   background-color: rgb(59, 59, 59);
   color: white;
   border: 2px solid rgb(223, 222, 222);
+  transition: 0.2s;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.cart-product{
+  background-color: rgb(241, 236, 236);
+  color: black;
+  border: 3px solid rgb(138, 138, 138);
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   transition: 0.2s;
 }
 .try, .cart, .buy{
@@ -27,7 +39,7 @@
   position: absolute;
  height: 2.5px;
  width: 20px;
- background-color: rgb(0, 0, 0);
+ background-color: rgb(239, 234, 234);
  top:0;
  right: 50px;
  transition: 0.5s;
@@ -36,7 +48,7 @@
   right: 115px;
   z-index: 100;
 }
-.buy:hover .line_for_cart2{
+.buy:hover .line_for_buy2{
   right: 115px;
   z-index: 100;
 }
@@ -58,7 +70,7 @@
   position: absolute;
   height: 2.5px;
   width: 20px;
-  background-color: rgb(8, 8, 8);
+  background-color: rgb(245, 242, 242);
   bottom: 10px;
   left: 40px;
   transition: 0.5s;
@@ -68,7 +80,26 @@
   left: 115px;
  z-index: 100;
 }
-.buy:hover .line_for_cart1{
+.buy:hover .line_for_buy1{
   left: 115px;
  z-index: 100;
+}
+.line_for_buy1{
+  position: absolute;
+  height: 2.5px;
+  width: 20px;
+  background-color: rgb(8, 8, 8);
+  bottom: 10px;
+  left: 40px;
+  transition: 0.5s;
+  z-index: 101;
+}
+.line_for_buy2{
+  position: absolute;
+ height: 2.5px;
+ width: 20px;
+ background-color: rgb(0, 0, 0);
+ top:0;
+ right: 50px;
+ transition: 0.5s;
 }
