@@ -27,7 +27,8 @@
 .Product-info{
   display: grid;
   grid-template-rows: 60px 250px 50px 50px;
-  margin: 0;
+  margin-left: -20px;
+  justify-content: start;
 }
 /* Product information (Tittle,description and buttons)*/
 .tittle{
@@ -35,20 +36,22 @@
   color: rgb(199, 199, 199);
   font-size: 25px;
   margin-top: -15px;
-  text-align: center;
+  
 
   
 }
 .tittle p{
   margin-top: -30px;
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  font-size: 15px;
 
 }
 .description{
   display: flex;
-  justify-content: center;
   color: rgb(199, 199, 199);
-  margin: auto;
+  margin-top: 40px;
+  margin-left: 10px;
 }
 .description .price1{
   font-family: Arial, Helvetica, sans-serif;
@@ -58,19 +61,29 @@
 .description .price2{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
- text-decoration: line-through;
+  text-decoration: line-through;
+
 
 }
+.dis p{
+  color: rgb(199, 199, 199);
+  margin-top: -100px;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
 .try{
-  display: flex;
-  justify-content: center;
-  margin: auto;
+  margin-left: 10px;
+  width: 150px;
+  margin-top: -80px;
+  height: 40px;
+
 }
 .buying{
   display: grid;
-  grid-template-columns: 200px 200px ;
-  gap: 300px;
-  justify-content: center;
+  grid-template-columns: 200px 150px ;
+  gap: 50px;
+  margin-top: -50px;
 }
 
 .try-product{
@@ -85,13 +98,13 @@
   cursor: pointer;
 }
 .cart{
-  display: flex;
-  justify-content: center;
   
+  width: 200px;
+  height: 50px;
 }
 .buy{
-  display: flex;
-  justify-content: center;
+  width: 150px;
+  height: 50px;
 }
 .cart-product{
   background-color: rgb(214, 214, 214);
