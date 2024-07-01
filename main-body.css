@@ -243,5 +243,11 @@
   width:100%;
   z-index: -1;
 }
+.product3 img{
+  height: 300px;
+}
+.product2 img{
+  height: 300px;
+}
 video { position: absolute; top: 0; left: 0; z-index: 0; display: none; }
 canvas { position: absolute; top: 0; left: 0; z-index: 1; }
