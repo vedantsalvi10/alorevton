@@ -247,7 +247,9 @@
   height: 300px;
 }
 .product2 img{
-  height: 100px;
+
+overflow: hidden;
 }
+
 video { position: absolute; top: 0; left: 0; z-index: 0; display: none; }
 canvas { position: absolute; top: 0; left: 0; z-index: 1; }
